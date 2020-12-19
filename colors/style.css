@@ -1,0 +1,11 @@
+p:nth-child(6){
+    color: #0D3596;
+}
+
+p:nth-child(8){
+    color:#2C51AD;
+}
+
+p:last-child{
+    color:#6580C4;
+}
