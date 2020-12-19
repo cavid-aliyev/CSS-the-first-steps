@@ -1,0 +1,7 @@
+.content data-name {
+    display: none;
+  }
+
+.content:hover::before{
+    content:attr(data-name)
+  }
