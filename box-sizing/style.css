@@ -1,0 +1,17 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before{
+    box-sizing: inherit
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    border: 20px solid gray;
+}
+
+p{
+    padding-left: 70px;
+}
