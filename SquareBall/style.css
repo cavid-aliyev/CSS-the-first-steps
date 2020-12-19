@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 2px solid gray
+}
+
+
+.box2{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 2px solid gray
+}
+
+.circle{
+        height: 197px;
+        width: 197px;
+        background-color: #F01406;
+        border-radius: 50%;
+}
