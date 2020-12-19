@@ -1,0 +1,8 @@
+
+.hidden {
+    display: none;
+  }
+
+.Myname:hover + .hidden {
+    display: inline-block;
+  }
