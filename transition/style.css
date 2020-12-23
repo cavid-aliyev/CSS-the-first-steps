@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box  
+}
+
+body{
+    background-color: rgb(120, 122, 202);
+}
+
+.image{
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 33%;
+    transform: rotateX(70deg) rotateZ(40deg);
+    transition-duration: 1s;
+    box-shadow:   50px 50px 60px 10px black;
+    border-radius: 10%;
+    border: 8px solid  rgb(67, 68, 179);
+}
+
+
+.image:hover{
+    transform: rotate(360deg);
+    box-shadow: none;
+}
